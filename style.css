@@ -18,7 +18,7 @@ main {
 img {
     display: inline-block;
     width: auto;
-    max-height: calc(100vh - 40px);
+    max-height: 1080px;
 }
 
 .information {
@@ -65,6 +65,11 @@ img {
 }
 
 /* Media Queries */
+@media(max-width: 1920px) {
+    img {
+        max-height: calc(100vh - 40px);
+    }
+}
 
 @media(max-width: 1400px) {
     main {
