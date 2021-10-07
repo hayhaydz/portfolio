@@ -56,12 +56,24 @@ img {
     margin-bottom: 15px;
 }
 
+.information-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2b2b2b;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.information-label:first-of-type {
+    margin-top: 0px;
+}
+
 .information-link {
     margin: 5px;
 }
 
 .information-social {
-    margin-top: 100px;
+    margin-top: 42px;
 }
 
 /* Media Queries */
@@ -89,7 +101,7 @@ img {
     }
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1024px) {
     body, html {
         width: auto;
         height: auto;
@@ -115,6 +127,10 @@ img {
         max-width: 80%;
         margin-left: 0px;
         margin-top: 25px;
+    }
+
+    .information-social {
+        margin-top: 100px;
     }
 }
 
