@@ -1,55 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-      .async-hide {
-          opacity: 0 !important
-      }
-    </style>
-    <script>
-        (function (a, s, y, n, c, h, i, d, e) {
-            s.className += ' ' + y;
-            h.start = 1 * new Date;
-            h.end = i = function () {
-                s.className = s.className.replace(RegExp(' ?' + y), '')
-            };
-            (a[n] = a[n] || []).hide = h;
-            setTimeout(function () {
-                i();
-                h.end = null
-            }, c);
-            h.timeout = c;
-        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
-            'GTM-NTSGGWW': true
-        });
-    </script>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-112410411-1', 'auto');
-        ga('require', 'GTM-NTSGGWW');
-        ga('send', 'pageview');
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112410411-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-112410411-1');
-    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,18 +29,16 @@
                 <p class="information-description">I’m a digital creator from the South West of England. Skilled in the craft of websites, I strive to create unique and enjoyable experiences for people on the internet. I take pride in the continued learning and improvement of my work and push myself to always be at the forefront of modern developments.</p>
                 <div class="information-work">
                     <h4 class="information-subheading">Recent Work</h4>
-                    <h5 class="information-label">Websites (HTML, CSS, JS, React, Gatsby, NetlifyCMS)</h5>
+                    <h5 class="information-label">(HTML, CSS, JS, React, Gatsby, NetlifyCMS, NextJS, Express)</h5>
+                    <a href="https://github.com/hayhaydz/MIV" class="information-link">MIV (Minimal Image Viewer)</a>
                     <a href="https://tawc.tk/" class="information-link">TAWC (To Anyone Who's Curious)</a>
+                    <a href="https://usmi.cf/" class="information-link">Understanding Social Media Interaction</a>
+                    <a href="https://neem.gq/" class="information-link">Neem (A social media clone)</a>
                     <a href="https://presencecounselling.co.uk/" class="information-link">Presence Counselling</a>
                     <a href="https://juniper-magazine.ga/" class="information-link">Juniper Magazine</a>
                     <a href="https://www.doghomecare.co.uk/" class="information-link">Greenacres Dog Boarding</a>
                     <a href="https://github.com/hayhaydz/hypertext-story" class="information-link">Hypertext Story</a>
                     <a href="https://github.com/hayhaydz/interactive-surface" class="information-link">Interactive Surface</a>
-                    <h5 class="information-label">Software (C++, openFrameworks)</h5>
-                    <a href="https://github.com/hayhaydz/vending-machine" class="information-link">Vending Machine</a>
-                    <a href="https://github.com/hayhaydz/TwitterFlitter" class="information-link">Twitter Flitter</a>
-                    <a href="https://github.com/hayhaydz/FootballDraw" class="information-link">Football Draw</a>
-                    <a href="https://github.com/hayhaydz/StudentManager" class="information-link">Student Manager</a>
                 </div>
                 <div class="information-social">
                     <h4 class="information-subheading">The Social</h4>
